@@ -1,0 +1,1260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Steam</title>
+    <link rel="shortcut icon" href="image/Steam_iconpng.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<link rel="stylesheet" href="style.css">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" />  
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<body>
+    <!-- <div class="header"> -->
+        
+    <div class="menu">
+        <div  class="menu2">
+            <ul>
+                <li class="li1" style="width: 58px;">STORE</li>
+                <div class="menu_dropdown1">
+                    <a href="#"><p>HOME</p></a>
+                    <a href="https://store.steampowered.com/explore/"><p>DISCOVERY QUEUE</p></a>
+                    <a href="https://store.steampowered.com/wishlist/profiles/76561198256587476/"><p>WISHLIST</p></a>
+                    <a href="https://store.steampowered.com/points/shop/"><p>POINTS SHOP</p></a>
+                    <a href="https://store.steampowered.com/news/?snr=1_reactroot_rewards__global-header"><p>NEWS</p></a>
+                    <a href="https://store.steampowered.com/charts?snr=1_reactroot_rewards__global-header"><p>STATS</p></a>
+                </div>
+                <li class="li2" style="width: 100px;margin-left: 10px;">COMMUNITY</li>
+                <div class="menu_dropdown2">
+                    <a href="https://steamcommunity.com/"><p>HOME</p></a>
+                    <a href="https://steamcommunity.com/discussions/"><p>DISCUSSIONS</p></a>
+                    <a href="https://steamcommunity.com/workshop/"><p>WORKSHOP</p></a>
+                    <a href="https://steamcommunity.com/workshop/"><p>MARKET</p></a>
+                    <a href="https://steamcommunity.com/?subsection=broadcasts"><p>BROADCASTS</p></a>
+                </div>
+                <li style="width: 61px;margin-left: 10px;"><a href="https://store.steampowered.com/about/">ABOUT</a></li>
+                <li style="width: 76px;margin-left: 10px;"><a href="https://help.steampowered.com/en/">SUPPORT</a></li>
+            </ul>
+        </div>
+
+        <a href="#"><div class="logo"></div></a>
+
+        
+        <div class="install_login_language">
+            <a href="https://store.steampowered.com/about/?snr=1_4_4__global-header">
+                <div class="but_install">
+                    <p class="text_install">Install steam</p>
+                </div>
+            </a>
+            <a href="login.html"><pre class="text_login">login   |</pre></a>
+            <div class="text_language" onclick="language()">language</div>
+            <div class="language_popup">
+                <p>繁體中文 (Traditional Chinese)</p>
+                <p>日本語 (Japanese)</p>
+                <p>한국어 (Korean)</p>
+                <p>ไทย (Thai)</p>
+                <p>Български (Bulgarian)</p>
+                <p>Čeština (Czech)</p>
+                <p>Dansk (Danish)</p>
+                <p>Deutsch (German)</p>
+                <p>Español - España (Spanish - Spain)</p>
+                <p>Español - Latinoamérica (Spanish - Latin America)</p>
+                <p>Ελληνικά (Greek)</p>
+                <p>Français (French)</p>
+                <p>Italiano (Italian)</p>
+                <p>Magyar (Hungarian)</p>
+                <p>Nederlands (Dutch)</p>
+                <p>Norsk (Norwegian)</p>
+                <p>Polski (Polish)</p>
+                <p>Português (Portuguese - Portugal)</p>
+                <p>Português - Brasil (Portuguese - Brazil)</p>
+                <p>Română (Romanian)</p>
+                <p>Русский (Russian)</p>
+                <p>Suomi (Finnish)</p>
+                <p>Svenska (Swedish)</p>
+                <p>Türkçe (Turkish)</p>
+                <p>Tiếng Việt (Vietnamese)</p>
+                <p>Українська (Ukrainian)</p>
+                <p>Report a translation problem</p>
+            </div>
+            <div class="pulldown_language"></div>
+            
+        </div>
+
+    </div>
+    <!-- </div> -->
+    
+
+    <div class="div_2">
+        <video autoplay muted loop class="video">
+            <source src="image/potionCraft.mp4" type="video/mp4">
+        </video>
+
+        <div class="main_menu">
+            <input class="searchbox" placeholder="Search">
+            <img class="searchbox_icon" src="image/search.png">
+            <div class="menu_item1">
+                <p>Your Store</p>
+            </div>
+            <div class="menu_item2">
+                <p>News & Noteworthy</p>
+            </div>
+            <div class="menu_item3">
+                <p>Categories</p>
+            </div>
+            <div class="menu_item4">
+                <a href="https://store.steampowered.com/points/shop">Points Shop</a>
+            </div>
+            <div class="menu_item5">
+                <a href="https://store.steampowered.com/news/">News</a>
+            </div>
+            <div class="menu_item6">
+                <a href="https://store.steampowered.com/labs/">Labs</a>
+            </div>
+        </div>
+          
+    </div>
+
+    <div class="home_page">
+        
+        <div class="left_column">
+            <img class="gift_card" src="image/gift_card.png">
+            <p class="left_column_text1">GIFT CARDS</p>
+            <a href="https://store.steampowered.com/digitalgiftcards/"><p class="left_column_text2">Now Available on Steam</p></a>
+            <p class="left_column_text3">RECOMMENDED</p>
+            <img class="icon" src="image/icons.png">
+            <p class="left_column_text4">By Friends</p>
+            <img class="icon1" src="image/icons(1).png">
+            <a href="https://store.steampowered.com/curators/"><p class="left_column_text5">By Curators</p></a>
+            <img class="icon2" src="image/icons(2).png">
+            <a href="https://store.steampowered.com/tag/browse/#yours"><p class="left_column_text6">Tags</p></a>
+            <p class="left_column_text7">DISCOVERY QUEUES</p>
+            <img class="icon3" src="image/icons(3).png">
+            <a href="https://store.steampowered.com/"><p class="left_column_text8">Recommendations</p></a>
+            <img class="icon4" src="image/icons(4).png">
+            <a href="https://store.steampowered.com/"><p class="left_column_text9">New Releases</p></a>
+            <p class="left_column_text10">BROWSE CATEGORIES</p>
+            <img class="icon5" src="image/icons(5).png">
+            <a href="https://store.steampowered.com/search/?filter=topsellers"><p class="left_column_text11">Top Sellers</p></a>
+            <img class="icon6" src="image/icons(7).png">
+            <a href="https://store.steampowered.com/explore/new/"><p class="left_column_text12">New Releases</p></a>
+            <img class="icon7" src="image/icons(8).png">
+            <a href="https://store.steampowered.com/explore/upcoming/"><p class="left_column_text13">Upcoming</p></a>
+            <img class="icon8" src="image/icons(9).png">
+            <a href="https://store.steampowered.com/specials#tab=TopSellers"><p class="left_column_text14">Specials</p></a>
+            <img class="icon9" src="image/icons(10).png">
+            <a href="https://store.steampowered.com/vr/"><p class="left_column_text15">VR Titles</p></a>
+            <img class="icon10" src="image/icons(11).png">
+            <a href="https://store.steampowered.com/controller/"><p class="left_column_text16">Controller-Friendly</p></a>
+            <p class="left_column_text17">BROWSE BY GENRE</p>
+            <a href="https://store.steampowered.com/genre/Free%20to%20Play/"><p class="left_column_text18">Free to Play</p></a>
+            <a href="https://store.steampowered.com/genre/Early%20Access/"><p class="left_column_text19">Early Access</p></a>
+            <a href="https://store.steampowered.com/tags/en/Action/"><p class="left_column_text20">Action</p></a>
+            <a href="https://store.steampowered.com/tags/en/Adventure/"><p class="left_column_text21">Adventure</p></a>
+            <a href="https://store.steampowered.com/tags/en/Casual/"><p class="left_column_text22">Casual</p></a>
+            <a href="https://store.steampowered.com/tags/en/Indie/"><p class="left_column_text23">Indie</p></a>
+            <a href="https://store.steampowered.com/tags/en/Massively%20Multiplayer/?snr=1_4_4__125"><p class="left_column_text24">Massively Multiplayer</p></a>
+            <a href="https://store.steampowered.com/tags/en/Racing/"><p class="left_column_text25">Racing</p></a>
+            <a href="https://store.steampowered.com/tags/en/RPG/"><p class="left_column_text26">RPG</p></a>
+            <a href="https://store.steampowered.com/tags/en/Simulation/?snr=1_4_4__125"><p class="left_column_text27">Simulation</p></a>
+            <a href="https://store.steampowered.com/tags/en/Sports/"><p class="left_column_text28">Sports</p></a>
+            <a href="https://store.steampowered.com/tags/en/Strategy/"><p class="left_column_text29">Strategy</p></a>
+            <p class="left_column_text30">RECENTLY VIEWED</p>
+            <a href="https://store.steampowered.com/agecheck/app/1938090/"><p class="left_column_text31">Call of Duty®: Modern Warfare® II</p></a>
+        </div>
+
+        <div class="main">
+            <p style="padding-top:20px;" >FEATURED & RECOMMENDED</p>
+
+            <a href="https://store.steampowered.com/app/570/Dota_2/"><div class="featured">
+                <img src="image/dota1.jpg" class="screenshot">
+                <div class="info">
+                    <p style="font-size: 24px;padding-top: 4px;padding-left: 10px;"> Dota 2</p>
+                    <img class="info1" src="image/dota2.jpg">
+                    <div class="hidden_screenshot1">
+
+                    </div>
+                    <img class="info2" src="image/dota3.jpg">
+                    <div class="hidden_screenshot2">
+
+                    </div>
+                    <img class="info3" src="image/dota4.jpg">
+                    <div class="hidden_screenshot3">
+
+                    </div>
+                    <img class="info4" src="image/dota5.jpg">
+                    <div class="hidden_screenshot4">
+
+                    </div>
+                    <pre>  </pre>
+                    <p style="font-size: 21px;margin-top: 150px;padding-left: 10px;">Now Available</p>
+                    <div class="top_seller">
+                        <p>Top Seller</p>
+                    </div>
+                    <img class="info_icon" src="image/win_iconpng.png">
+                    <p style="font-size: 11px;margin-top: 70px;padding-left: 10px;">Free to Play</p>
+                
+                </div>
+            </div>
+            
+
+            <div id="game1" class="box" >
+                <b style="font-size: 15px;">Dota 2</b>
+                <p style="font-size: 9px;">Released: Jul 9,2013</p>
+                <div>
+                    <img class="box_slideshow1" src="image/dota2.jpg">
+                    <img class="box_slideshow1" src="image/dota3.jpg">
+                    <img class="box_slideshow1" src="image/dota4.jpg">
+                    <img class="box_slideshow1" src="image/dota5.jpg">
+                </div>
+                <div class="box_userreview">
+                    <p>Overall user reviews:</p>
+                    <p style="color: #66c0f4; margin-top: -18px;">Very positive <span style="color: #b8b6b4;">(1,896,450 reviews)</span></p>
+                </div>
+                <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                <div class="box_tag">Free to play</div>
+                <div class="box_tag" style="left:84px">MOBA</div>
+                <div class="box_tag" style="left:127px">Multiplayer</div>
+                <div class="box_tag" style="left:191px">Strategy</div>
+                <div class="box_tag" style="left:243px">eSports</div>
+            </div>
+            </a>
+            <a href="https://store.steampowered.com/steamawards">
+                <img class="steam_award" src="image/steam_awards.jpg">
+            </a>
+
+            <div class="offer">
+                <p style="font-size: 14px;letter-spacing: 0.03em;font-weight: normal;">SPECIAL OFFERS</p>
+                <a href="https://store.steampowered.com/specials#tab=TopSellers">
+                    <div class="offer_box">
+                        <p>BROWSE MORE</p>
+                    </div>
+                </a>
+                <a href="https://store.steampowered.com/app/1593500/God_of_War/">
+                    <div class="offer_game1" style="background-image:url(image/gpw.jpg); background-size: 306px 350px;"></div>
+                    <div id="game2" class="box" >
+                        <b style="font-size: 15px;">God of War</b>
+                        <p style="font-size: 9px;">Released: 14 Jan,2022</p>
+                        <div>
+                            <img class="box_slideshow2" src="image/gow1.jpg">
+                            <img class="box_slideshow2" src="image/gow2.jpg">
+                            <img class="box_slideshow2" src="image/gow3.jpg">
+                            <img class="box_slideshow2" src="image/gow4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Overwhelmingly Positive <span style="color: #b8b6b4;">(55,382 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Action</div>
+                        <div class="box_tag" style="left:59px">Singleplayer</div>
+                        <div class="box_tag" style="left:136px">Adventure</div>
+                        <div class="box_tag" style="left:201px">Story Rich</div>
+                        <div class="box_tag" style="left:267px">3D</div>
+                    </div>
+                </a>
+                <div class="offer_price1">
+                    <p style="font-size: 14px;margin-top:16px;margin-left: 16px;">WEEKEND DEAL</p>
+                    <p style="font-size: 12px;color: #acdbf5;margin-top: -9px;margin-left: 16px;">Offer ends 23 Dec @ 1:00am.</p>
+
+                </div>
+
+                <a href="https://store.steampowered.com/app/2208920/Assassins_Creed_Valhalla/">
+                    <div class="offer_game2" style="background-image:url(image/add.jpg); background-size: 306px 350px;">
+                        
+                    </div>
+                    <div id="game3" class="box" >
+                        <b style="font-size: 15px;">Assassin's Creed Valhalla</b>
+                        <p style="font-size: 9px;">Released: 7 Dec, 2022</p>
+                        <div>
+                            <img class="box_slideshow3" src="image/ass1.jpg">
+                            <img class="box_slideshow3" src="image/ass2.jpg">
+                            <img class="box_slideshow3" src="image/ass3.jpg">
+                            <img class="box_slideshow3" src="image/ass4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #b9a074; margin-top: -18px;">Mixed <span style="color: #b8b6b4;">(2,824 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Action</div>
+                        <div class="box_tag" style="left:59px">Adventure</div>
+                        <div class="box_tag" style="left:124px">RPG</div>
+                        <div class="box_tag" style="left:160px">Open World</div>
+                        <div class="box_tag" style="left:234px">Vikings</div>
+                    </div>
+                </a>
+                <div class="offer_price2">
+                    <p style="font-size: 14px;margin-top:16px;margin-left: 16px;">FREE WEEKEND</p>
+                    <p style="font-size: 12px;color: #acdbf5;margin-top: -9px;margin-left: 16px;">Offer ends 23 Dec @ 1:00am.</p>
+                    
+                </div>
+
+                <a href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/">
+                    <div class="offer_game3" style="background-image: url(image/red.jpg); background-size: 306px 143px;">
+                    </div>
+                    <div id="game4" class="box" >
+                        <b style="font-size: 15px;">Red Dead Redemption 2</b>
+                        <p style="font-size: 9px;">Released: 6 Dec, 2019</p>
+                        <div>
+                            <img class="box_slideshow4" src="image/red1.jpg">
+                            <img class="box_slideshow4" src="image/red2.jpg">
+                            <img class="box_slideshow4" src="image/red3.jpg">
+                            <img class="box_slideshow4" src="image/red4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Very Positive <span style="color: #b8b6b4;">(301,952 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Open World</div>
+                        <div class="box_tag" style="left:89px">Story Rich</div>
+                        <div class="box_tag" style="left:155px">Adventure</div>
+                        <div class="box_tag" style="left:220px">Western</div>
+                    </div>  
+                </a>
+
+                <div class="offer_price3">
+                    <p style="color: #283846;font-size: 14px;padding-top: 11px;padding-left: 7px;">Today's deal!</p>
+                </div>
+
+                <a href="https://store.steampowered.com/app/1811260/EA_SPORTS_FIFA_23/">
+                    <div class="offer_game4" style="background-image: url(image/fifa.jpg); background-size: 306px 143px;"">
+                        
+                    </div>
+                    <div id="game5" class="box" >
+                        <b style="font-size: 15px;">FIFA 23</b>
+                        <p style="font-size: 9px;">Released: 29 Sep, 2022</p>
+                        <div>
+                            <img class="box_slideshow5" src="image/fifa1.jpg">
+                            <img class="box_slideshow5" src="image/fifa2.jpg">
+                            <img class="box_slideshow5" src="image/fifa3.jpg">
+                            <img class="box_slideshow5" src="image/fifa4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #b9a074; margin-top: -18px;">Mixed <span style="color: #b8b6b4;">(38,312 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Sports</div>
+                        <div class="box_tag" style="left:60px">Soccer</div>
+                        <div class="box_tag" style="left:108px">Immesive Sim</div>
+                        <div class="box_tag" style="left:193px">eSports</div>
+                        <div class="box_tag" style="left:245px">PvP</div>
+                    </div> 
+                </a>
+
+                <div class="offer_price4">
+
+                </div>
+                <div class="offer_discount1">
+                    <p>-40%</p>
+                </div>
+                <div class="offer_final_price1">
+                      <span class="strikethrough">1.139.000vnđ</span>
+                      <p style="color: #beee11;margin-left:4px;font-size: 15px;margin-top:-5px">683.500vnđ</p>
+                </div>
+              
+                <div class="offer_discount2">
+                    <p>Up to -80%</p>
+                </div>
+                <div class="offer_discount3">
+                    <p>-67%</p>
+                </div>
+                <div class="offer_final_price3">
+                    <span class="strikethrough">1.000.000vnđ</span>
+                    <p style="color: #beee11;font-size: 15px;margin-top:-5px;margin-left:4px;">330.000vnđ</p>
+                </div>
+                <div class="offer_discount4">
+                    <p>-60%</p>
+                </div>
+                <div class="offer_final_price4">
+                    <span class="strikethrough">1.090.000vnđ</span>
+                    <p style="color: #beee11;font-size: 15px;margin-top:-5px;margin-left:4px;">436.000vnđ</p>
+                </div>
+            </div>
+            
+            <div class="category">
+                <p style="font-size: 14px;letter-spacing: 0.03em;font-weight: normal;">BROWSE BY CATEGORY</p>
+                <a href="https://store.steampowered.com/tag/browse/#global_492">
+                    <div class="offer_box">
+                        <p style="font-weight: normal;">BROWSE MORE</p>
+                    </div>
+                </a>
+
+                <a href="https://store.steampowered.com/category/exploration_open_world">
+                    <div class="category1">
+                        <p style="margin-top: 175px;">ADVENTURES</p>
+                    </div>
+                </a>
+                <a href="https://store.steampowered.com/category/story_rich">
+                    <div class="category2">
+                        <p style="margin-top: 175px;">STORY RICH</p>
+                    </div>
+                </a>
+                <a href="https://store.steampowered.com/category/sports">
+                    <div class="category3">
+                        <p style="margin-top: 175px;">ALL SPORTS</p>
+                    </div>
+                </a>
+                <a href="https://store.steampowered.com/category/strategy">
+                    <div class="category4">
+                        <p style="margin-top: 175px;">STRATEGY</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="sign_in">
+                <p style="padding-top: 25px;">Sign in to view personalized recommendations</p>
+                <div class="but_sign_in">
+                    <a href="login.html"<p>Sign in</p></a>
+                </div>
+                <p style="margin-top: 20px;">Or <span class="signup_text"><a href="https://store.steampowered.com/join/?snr=1_4_4__more-content-login">sign up</a></span> and join Steam for free</p>
+            </div>
+
+            <div class="browse">
+                <p style="font-size: 14px;letter-spacing: 0.03em;font-weight: normal;">BROWSE STEAM</p>
+                <div class="big_button1">
+                    <a href="https://store.steampowered.com/explore/new/"><b>NEW RELEASES</b></a>
+                </div>
+                <div class="big_button2">
+                    <a href="https://store.steampowered.com/search/?specials=1"><b>SPECIALS</b></a>
+                </div>
+                <div class="big_button3">
+                    <a href="https://store.steampowered.com/genre/Free%20to%20Play/"><b>FREE GAMES</b></a>
+                </div>
+                <div class="big_button4">
+                    <a href="https://store.steampowered.com/tag/browse/#global_492"><b>BY USER TAGS</b></a>
+                </div>
+            </div>
+
+            <div class="popular" id="popular1">
+                <p style="font-size: 14px;letter-spacing: 0.03em;font-weight: normal;">POPULAR VR GAMES</p>
+                <a href="https://store.steampowered.com/vr/">
+                    <div class="offer_box">
+                        <p>BROWSE ALL</p>
+                    </div>
+                </a>
+                
+                <a href="https://store.steampowered.com/app/438100/VRChat/">
+                    <img class="popular_game1" src="image/vrchat.jpg">
+                    <div id="game6" class="box" >
+                        <b style="font-size: 15px;">VRChat</b>
+                        <p style="font-size: 9px;">Released: 1 Feb, 2017</p>
+                        <div>
+                            <img class="box_slideshow6" src="image/vr1.jpg">
+                            <img class="box_slideshow6" src="image/vr2.jpg">
+                            <img class="box_slideshow6" src="image/vr3.jpg">
+                            <img class="box_slideshow6" src="image/vr4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Mostly Positive <span style="color: #b8b6b4;">(188,495 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">VR</div>
+                        <div class="box_tag" style="left:42px">Free to Play</div>
+                        <div class="box_tag" style="left:113px">Memes</div>
+                        <div class="box_tag" style="left:161px">Anime</div>
+                        <div class="box_tag" style="left:204px">Multiplayer</div>
+                    </div>
+                </a>
+
+                <a href="https://store.steampowered.com/app/518920/Surgeon_Simulator_Experience_Reality/">
+                    <img class="popular_game2" src="image/surgeon.jpg">
+                    <div id="game7" class="box" >
+                        <b style="font-size: 15px;">Surgeon Simulator: Experience Reality</b>
+                        <p style="font-size: 9px;">Released: 6 Dec, 2016</p>
+                        <div>
+                            <img class="box_slideshow7" src="image/surgeon1.jpg">
+                            <img class="box_slideshow7" src="image/surgeon2.jpg">
+                            <img class="box_slideshow7" src="image/surgeon3.jpg">
+                            <img class="box_slideshow7" src="image/surgeon4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #b9a074; margin-top: -18px;">Mixed <span style="color: #b8b6b4;">(526 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Simulation</div>
+                        <div class="box_tag" style="left:77px">VR</div>
+                        <div class="box_tag" style="left:104px">Medieval Sim</div>
+                        <div class="box_tag" style="left:176px">Indie</div>
+                        <div class="box_tag" style="left:212px">Gore</div>
+                    </div>
+                </a>
+                <a href="https://store.steampowered.com/app/611670/The_Elder_Scrolls_V_Skyrim_VR/">
+                    <img class="popular_game3" src="image/skyrim.jpg">
+                    <div id="game8" class="box" >
+                        <b style="font-size: 15px;">The Elder Scrolls V: Skyrim VR</b>
+                        <p style="font-size: 9px;">Released: 3 Apr, 2018</p>
+                        <div>
+                            <img class="box_slideshow8" src="image/skyrim1.jpg">
+                            <img class="box_slideshow8" src="image/skyrim2.jpg">
+                            <img class="box_slideshow8" src="image/skyrim3.jpg">
+                            <img class="box_slideshow8" src="image/skyrim4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Mostly Positive <span style="color: #b8b6b4;">(6,635 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Open World</div>
+                        <div class="box_tag" style="left:85px">RPG</div>
+                        <div class="box_tag" style="left:120px">VR</div>
+                        <div class="box_tag" style="left:146px">Singleplayer</div>
+                        <div class="box_tag" style="left:218px">Adventure</div>
+                    </div>
+                </a>
+                <a href="https://store.steampowered.com/app/620980/Beat_Saber/">
+                    <img class="popular_game4" src="image/beatsaber.jpg">
+                    <div id="game9" class="box" >
+                        <b style="font-size: 15px;">Beat Saber</b>
+                        <p style="font-size: 9px;">Released: 22 May, 2019</p>
+                        <div>
+                            <img class="box_slideshow9" src="image/beat1.jpg">
+                            <img class="box_slideshow9" src="image/beat2.jpg">
+                            <img class="box_slideshow9" src="image/beat3.jpg">
+                            <img class="box_slideshow9" src="image/beat4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Overwhelmingly Positive <span style="color: #b8b6b4;">(60,500 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">VR</div>
+                        <div class="box_tag" style="left:42px">Rhythm</div>
+                        <div class="box_tag" style="left:92px">Music</div>
+                        <div class="box_tag" style="left:133px">Great Soundtrack</div>
+                        <div class="box_tag" style="left:231px">Indie</div>
+                    </div>
+                </a>
+                
+                <div class="popular_price1">
+                    
+                </div>
+                <div class="popular_price2">
+                    
+                </div>
+                <div class="popular_price3">
+                    
+                </div>
+                <div class="popular_price4">
+                    
+                </div>
+                <div class="popular_discount">
+                    <p>-75%</p>
+                </div>
+                <div class="popular_final_price1">
+                    <p>Free to Play</p>
+                </div>
+                <div class="popular_final_price2">
+                    <span class="strikethrough">190.000vnđ</span><span style="color: #beee11;margin-left:4px    ;">47.000vnđ</span>
+                </div>
+                <div class="popular_final_price3">
+                    <p>1.350.000vnđ</p>
+                </div>
+                <div class="popular_final_price4">
+                    <p>250.000vnđ</p>
+                </div>
+                
+            </div>
+            
+            <div class="popular" id="under">
+                <p style="font-size: 14px;letter-spacing: 0.03em;font-weight: normal;">UNDER 200.000vnđ</p>
+                <a href="https://store.steampowered.com/search/?filter=ut2&category1=998&os=">
+                    <div class="offer_box">
+                        <p>UNDER 100.000vnđ</p>
+                    </div>
+                </a>
+                <a href="https://store.steampowered.com/app/108600/Project_Zomboid/">
+                    <img class="popular_game1" id="zomboid" src="image/zomboid_under.jpg">
+                    <div id="game10" class="box" >
+                        <b style="font-size: 15px;">Project Zomboid</b>
+                        <p style="font-size: 9px;">Released: 8 Nov, 2013</p>
+                        <div>
+                            <img class="box_slideshow10" src="image/zomboid1.jpg">
+                            <img class="box_slideshow10" src="image/zomboid2.jpg">
+                            <img class="box_slideshow10" src="image/zomboid3.jpg">
+                            <img class="box_slideshow10" src="image/zomboid4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Very Positive <span style="color: #b8b6b4;">(113,565 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Survival</div>
+                        <div class="box_tag" style="left:66px">Zombies</div>
+                        <div class="box_tag" style="left:120px">Open World</div>
+                        <div class="box_tag" style="left:191px">2D</div>
+                        <div class="box_tag" style="left:217px">Multiplayer</div>
+                    </div>
+                </a>
+                <a href="https://store.steampowered.com/app/435150/Divinity_Original_Sin_2__Definitive_Edition/">
+                    <img class="popular_game2" id="divinty" src="image/divinity_under.jpg">
+                    <div id="game11" class="box" >
+                        <b style="font-size: 15px;">Divinity: Original Sin - Enhanced Edition</b>
+                        <p style="font-size: 9px;">Released: 27 Oct, 2015</p>
+                        <div>
+                            <img class="box_slideshow11" src="image/divinty1.jpg">
+                            <img class="box_slideshow11" src="image/divinty2.jpg">
+                            <img class="box_slideshow11" src="image/divinty3.jpg">
+                            <img class="box_slideshow11" src="image/divinty4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Very Positive <span style="color: #b8b6b4;">(18,364 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">RPG</div>
+                        <div class="box_tag" style="left:52px">Turn-Based</div>
+                        <div class="box_tag" style="left:122px">Co-op</div>
+                        <div class="box_tag" style="left:164px">Adventure</div>
+                        <div class="box_tag" style="left:227px">Fantasy</div>
+                    </div>
+                </a>
+                <a href="https://store.steampowered.com/app/892970/Valheim/">
+                    <img class="popular_game3" id="vanheilm" src="image/valheim_under.jpg">
+                    <div id="game12" class="box" >
+                        <b style="font-size: 15px;">Valheim</b>
+                        <p style="font-size: 9px;">Released: 2 Feb, 2021</p>
+                        <div>
+                            <img class="box_slideshow12" src="image/val1.jpg">
+                            <img class="box_slideshow12" src="image/val2.jpg">
+                            <img class="box_slideshow12" src="image/val3.jpg">
+                            <img class="box_slideshow12" src="image/val4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Overwhelmingly Positive <span style="color: #b8b6b4;">(325,640 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Open World</div>
+                        <div class="box_tag" style="left:87px">Survival Craft</div>
+                        <div class="box_tag" style="left:165px">Survival</div>
+                        <div class="box_tag" style="left:217px">Online Co-op</div>
+                    </div>
+                </a>
+                <a href="https://store.steampowered.com/app/739630/Phasmophobia/">
+                    <img class="popular_game4" id="phasmo" src="image/phasmophobia_under.jpg">
+                    <div id="game13" class="box" >
+                        <b style="font-size: 15px;">Phasmophobia</b>
+                        <p style="font-size: 9px;">Released: 19 Sep, 2020</p>
+                        <div>
+                            <img class="box_slideshow13" src="image/phas1.jpg">
+                            <img class="box_slideshow13" src="image/phas2.jpg">
+                            <img class="box_slideshow13" src="image/phas3.jpg">
+                            <img class="box_slideshow13" src="image/phas4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Overwhelmingly Positive <span style="color: #b8b6b4;">(414,357 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Horror</div>
+                        <div class="box_tag" style="left:58px">Online Co-op</div>
+                        <div class="box_tag" style="left:135px">Multiplayer</div>
+                        <div class="box_tag" style="left:200px">Co-op</div>
+                        <div class="box_tag" style="left:242px">VR</div>
+                    </div>
+                </a>
+                <div class="popular_price1">
+                
+                </div>
+                <div class="popular_price2">
+                    
+                </div>
+                <div class="popular_price3">
+                    
+                </div>
+                <div class="popular_price4">
+                    
+                </div>
+                <div class="popular_discount">
+                    <p>-65%</p>
+                </div>
+                <div class="popular_final_price1">
+                    <p>168.000vnđ</p>
+                </div>
+                <div class="popular_final_price2">
+                    <span class="strikethrough">350.000vnđ</span><span style="color: #beee11;margin-left:4px    ;">122.500vnđ</span>
+                </div>
+                <div class="popular_final_price3">
+                    <p>188.000vnđ</p>
+                </div>
+                <div class="popular_final_price4">
+                    <p>160.000vnđ</p>
+                </div>
+            </div>
+
+            <div class="seller">
+                <p style="font-size: 14px;letter-spacing: 0.03em;font-weight: normal;">TOP SELLER</p>
+                <a href="https://store.steampowered.com/app/1938090/Call_of_Duty_Modern_Warfare_II/">
+                    <div class="seller_tab">
+                        <img src="image/codmw_tab.jpg" style="margin-left: -198px;float: left;" width="184px" height="69px">
+                        <p style="font-size: 15px;color: white;">Call of Duty®: Modern Warfare® II</p>
+                        <img src="image/win_iconpng.png" class="tab_win_icon">
+                        <p style="margin-top: 27px;">FPS, Action, Shooter, Multiplayer</p>
+                        <div class="tab_discount">
+                            <b>-15%</b>
+                        </div>
+                        <div class="tab_price">
+                            <span class="strikethrough" style="font-size: 11px;">1.799.000vnđ</span>
+                            <p style="margin-top: -5px;">1.529.000vnđ</p>
+                        </div>
+                    </div>
+                    <div class="sidetab">
+                        <b style="font-size: 15px;">Call of Duty®: Modern Warfare® II</b>
+                        <p style="font-size: 9px;">Released: 28 Oct, 2022</p>
+                        <div>
+                            <img width="278px" height="155px" src="image/Call_1.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/Call_2.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/Call_3.jpg">
+                        </div>
+                        <div class="box_userreview2" style="margin-top: 400px;">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #b9a074; margin-top: -18px;">Mixed <span style="color: #b8b6b4;">(153,655 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 60px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag2">FPS</div>
+                        <div class="box_tag2" style="left:48px">Action</div>
+                        <div class="box_tag2" style="left:91px">Shooter</div>
+                        <div class="box_tag2" style="left:142px">Multiplayer</div>
+                        <div class="box_tag2" style="left:207px">Singleplayer</div>
+                    </div>
+                </a>
+                
+                <a href="https://store.steampowered.com/steamdeck">
+                    <div class="seller_tab">
+                        <img src="image/steamdeck_tab.jpg" style="margin-left: -198px;float: left;" width="184px" height="69px">
+                        <p style="color: white;" class="p1">Steam Deck</p>
+                        <img src="image/win_iconpng.png" class="tab_win_icon">
+                        <img src="image/steam_icon.png" class="tab_steam_icon">
+                        <img src="image/apple_icon.png" class="tab_apple_icon">
+                    </div>
+                </a>  
+                
+                <a href="https://store.steampowered.com/app/730/CounterStrike_Global_Offensive/">
+                    <div class="seller_tab">
+                        <img src="image/csgo_tab.jpg" style="margin-left: -198px;float: left;" width="184px" height="69px">
+                        <p style="font-size: 15px;color: white;">Counter-Strike: Global Offensive</p>
+                        <img src="image/win_iconpng.png" class="tab_win_icon">
+                        <img src="image/steam_icon.png" class="tab_steam_icon">
+                        <img src="image/apple_icon.png" class="tab_apple_icon">
+                        <p style="margin-top: 27px;">FPS, Shooter, Multiplayer, Competitive</p>
+                        <p class="seller_f2p">Free to Play</p>
+                    </div>
+                    <div class="sidetab">
+                        <b style="font-size: 15px;">Counter-Strike: Global Offensive</b>
+                        <p style="font-size: 9px;">Released: 22 Aug, 2012</p>
+                        <div>
+                            <img width="278px" height="155px" src="image/Counter_1.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/Counter_2.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/Counter_3.jpg">
+                        </div>
+                        <div class="box_userreview2" style="margin-top: 400px;">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Very Positive <span style="color: #b8b6b4;">(6,814,655 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 60px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag2">FPS</div>
+                        <div class="box_tag2" style="left:48px">Shooter</div>
+                        <div class="box_tag2" style="left:99px">Multiplayer</div>
+                        <div class="box_tag2" style="left:164px">Competitive</div>
+                        <div class="box_tag2" style="left:234px">Action</div>
+                    </div>
+                </a>
+                
+                <a href="https://store.steampowered.com/app/1811260/EA_SPORTS_FIFA_23/">
+                    <div class="seller_tab">
+                        <img src="image/fifa_tab.jpg" style="margin-left: -198px;float: left;" width="184px" height="69px">
+                        <p style="font-size: 15px;color: white;">EA SPORTS™ FIFA 23</p>
+                        <img src="image/win_iconpng.png" class="tab_win_icon">
+                        <p style="margin-top: 27px;">Sports, Soccer, Immesive Sim, eSports</p>
+                        <div class="tab_discount">
+                            <b>-60%</b>
+                        </div>
+                        <div class="tab_price">
+                            <span class="strikethrough" style="font-size: 11px;">1.099.000vnđ</span>
+                            <p style="margin-top: -5px;">436.000vnđ</p>
+                        </div>
+                    </div>
+                    <div class="sidetab">
+                        <b style="font-size: 15px;">EA SPORTS™ FIFA 23</b>
+                        <p style="font-size: 9px;">Released: 29 Sep, 2022</p>
+                        <div>
+                            <img width="278px" height="155px" src="image/Fifa_1.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/Fiafa_2.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/Fifa_3.jpg">
+                        </div>
+                        <div class="box_userreview2" style="margin-top: 400px;">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #b9a074; margin-top: -18px;">Mixed <span style="color: #b8b6b4;">(39,655 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 60px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag2">Sports</div>
+                        <div class="box_tag2" style="left:59px">Soccer</div>
+                        <div class="box_tag2" style="left:105px">Immesive Sim</div>
+                        <div class="box_tag2" style="left:185px">eSports</div>
+                        <div class="box_tag2" style="left:234px">PvP</div>
+                    </div>
+                </a>
+                
+                <a href="https://store.steampowered.com/app/570/Dota_2/">
+                    <div class="seller_tab">
+                        <img src="image/dota_tab.jpg" style="margin-left: -198px;float: left;" width="184px" height="69px">
+                        <p style="font-size: 15px;color: white;">Dota 2</p>
+                        <img src="image/win_iconpng.png" class="tab_win_icon">
+                        <img src="image/steam_icon.png" class="tab_steam_icon">
+                        <img src="image/apple_icon.png" class="tab_apple_icon">
+                        <p style="margin-top: 27px;">Free to Play, MOBA, Multiplayer, Strategy</p>
+                        <p class="seller_f2p">Free to Play</p>
+                    </div>
+                    <div class="sidetab">
+                        <b style="font-size: 15px;">Dota 2</b>
+                        <p style="font-size: 9px;">Released: 10 Jul, 2013</p>
+                        <div>
+                            <img width="278px" height="155px" src="image/Dota_1.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/dota2.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/Dota_3.jpg">
+                        </div>
+                        <div class="box_userreview2" style="margin-top: 400px;">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Very Positive <span style="color: #b8b6b4;">(1,898,298 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 60px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag2">Free to Play</div>
+                        <div class="box_tag2" style="left:86px">MOBA</div>
+                        <div class="box_tag2" style="left:130px">Multiplayer</div>
+                        <div class="box_tag2" style="left:195px">Strategy</div>
+                        <div class="box_tag2" style="left:247px">PvP</div>
+                    </div>
+                </a>
+                
+                <a href="https://store.steampowered.com/app/1172470/Apex_Legends/">
+                    <div class="seller_tab">
+                        <img src="image/apex_tab.jpg" style="margin-left: -198px;float: left;" width="184px" height="69px">
+                        <p style="font-size: 15px;color: white;">Apex Legends™</p>
+                        <img src="image/win_iconpng.png" class="tab_win_icon">
+                        <p style="margin-top: 27px;">Free to Play, Multiplayer, Battle Royale, Shooter</p>
+                        <p class="seller_f2p">Free to Play</p>
+                    </div>
+                    <div class="sidetab">
+                        <b style="font-size: 15px;">Apex Legends™</b>
+                        <p style="font-size: 9px;">Released: 5 Nov, 2020</p>
+                        <div>
+                            <img width="278px" height="155px" src="image/Apex_1.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/Apex_2.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/Apex_3.jpg">
+                        </div>
+                        <div class="box_userreview2" style="margin-top: 400px;">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Very Positive <span style="color: #b8b6b4;">(553,839 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 60px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag2">Free to Play</div>
+                        <div class="box_tag2" style="left:86px">Multiplayer</div>
+                        <div class="box_tag2" style="left:151px">Battle Royale</div>
+                        <div class="box_tag2" style="left:228px">Shooter</div>
+                    </div>
+                </a>
+                
+                <a href="https://store.steampowered.com/app/1583230/High_On_Life/">
+                    <div class="seller_tab">
+                        <img src="image/highonlife_tab.jpg" style="margin-left: -198px;float: left;" width="184px" height="69px">
+                        <p style="font-size: 15px;color: white;">High On Life</p>
+                        <img src="image/win_iconpng.png" class="tab_win_icon">
+                        <p style="margin-top: 27px;">FPS, Adventure, Comedy, Singleplayer</p>
+                        <p class="seller_f2p">480.000vnđ</p>
+                    </div>
+                    <div class="sidetab">
+                        <b style="font-size: 15px;">High On Life</b>
+                        <p style="font-size: 9px;">Released: 13 Dec, 2022</p>
+                        <div>
+                            <img width="278px" height="155px" src="image/High_1.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/High_2.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/High_3.jpg">
+                        </div>
+                        <div class="box_userreview2" style="margin-top: 400px;">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Very Positive <span style="color: #b8b6b4;">(3,637 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 60px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag2">FPS</div>
+                        <div class="box_tag2" style="left:48px">Comedy</div>
+                        <div class="box_tag2" style="left:101px">Adventure</div>
+                        <div class="box_tag2" style="left:163px">Singleplayer</div>
+                        <div class="box_tag2" style="left: 235px;">Action</div>
+                    </div>
+                </a>
+
+                <a href="https://store.steampowered.com/app/236390/War_Thunder?snr=1_7_15__13">
+                    <div class="seller_tab">
+                        <img src="image/warthunder_tab.jpg" style="margin-left: -198px;float: left;" width="184px" height="69px">
+                        <p style="font-size: 15px;color: white;">War Thunder</p>
+                        <img src="image/win_iconpng.png" class="tab_win_icon">
+                        <img src="image/steam_icon.png" class="tab_steam_icon">
+                        <img src="image/apple_icon.png" class="tab_apple_icon">
+                        <p style="margin-top: 27px;">Free to Play, Vehicular Combat, Combat, VR</p>
+                        <p class="seller_f2p">Free to Play</p>
+                    </div>
+                    <div class="sidetab">
+                        <b style="font-size: 15px;">War Thunder</b>
+                        <p style="font-size: 9px;">Released: 15 Aug, 2013</p>
+                        <div>
+                            <img width="278px" height="155px" src="image/Thunder_1.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/Thunder_2.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/Thunder_3.jpg">
+                        </div>
+                        <div class="box_userreview2" style="margin-top: 400px;">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Very Positive <span style="color: #b8b6b4;">(355,762 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 60px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag2">Free to Play</div>
+                        <div class="box_tag2" style="left:86px">Vehicular Combat</div>
+                        <div class="box_tag2" style="left:185px">Combat</div>
+                        <div class="box_tag2" style="left:236px">VR</div>
+                    </div>
+                </a>
+                
+                <a href="https://store.steampowered.com/app/1593500/God_of_War/">
+                    <div class="seller_tab">
+                        <img src="image/gow)Tab.jpg" style="margin-left: -198px;float: left;" width="184px" height="69px">
+                        <p style="font-size: 15px;color: white;">God of War</p>
+                        <img src="image/win_iconpng.png" class="tab_win_icon">
+                        <p style="margin-top: 27px;">Action, Singleplayer, Adventure, Story Rich</p>
+                        <div class="tab_discount">
+                            <b>-40%</b>
+                        </div>
+                        <div class="tab_price">
+                            <span class="strikethrough" style="font-size: 11px;">1.139.000vnđ</span>
+                            <p style="margin-top: -5px;">683.500vnđ</p>
+                        </div>
+                    </div>
+                    <div class="sidetab">
+                        <b style="font-size: 15px;">God of War</b>
+                        <p style="font-size: 9px;">Released: 14 Jan, 2022</p>
+                        <div>
+                            <img width="278px" height="155px" src="image/God_1.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/God_2.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/God_3.jpg">
+                        </div>
+                        <div class="box_userreview2" style="margin-top: 400px;">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Overwhelmingly Positive <span style="color: #b8b6b4;">(55,940 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 60px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag2">Action</div>
+                        <div class="box_tag2" style="left:58px">Singleplayer</div>
+                        <div class="box_tag2" style="left:131px">Adventure</div>
+                        <div class="box_tag2" style="left:193px">Story Rich</div>
+                        <div class="box_tag2" style="left:256px">3D</div>
+                    </div>
+                </a>
+                
+                <a href="https://store.steampowered.com/app/578080/PUBG_BATTLEGROUNDS/">
+                    <div class="seller_tab">
+                        <img src="image/pubp_tab.jpg" style="margin-left: -198px;float: left;" width="184px" height="69px">
+                        <p style="font-size: 15px;color: white;">PUBG: BATTLEGROUNDS</p>
+                        <img src="image/win_iconpng.png" class="tab_win_icon">
+                        <p style="margin-top: 27px;">Survival, Shooter, Multiplayer, Battle Royale</p>
+                        <p class="seller_f2p">Free to Play</p>
+                    </div>
+                    <div class="sidetab">
+                        <b style="font-size: 15px;">PUBG: BATTLEGROUNDS</b>
+                        <p style="font-size: 9px;">Released: 21 Dec, 2017</p>
+                        <div>
+                            <img width="278px" height="155px" src="image/PUBG_1.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/PUBG_2.jpg">
+                            <img width="278px" height="155px" style="margin-top: 10px;" src="image/PUBG_3.jpg">
+                        </div>
+                        <div class="box_userreview2" style="margin-top: 400px;">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #b9a074; margin-top: -18px;">Mixed <span style="color: #b8b6b4;">(2,118,753 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 60px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag2">Survival</div>
+                        <div class="box_tag2" style="left:66px">Shooter</div>
+                        <div class="box_tag2" style="left:117px">Multiplayer</div>
+                        <div class="box_tag2" style="left:182px">Battle Royale</div>
+                    </div>
+                </a>
+
+                <div class="seller_seemore">
+                    <p class="p2" style="text-indent: 465px;">See more:</p>
+                    <a href="https://store.steampowered.com/search/?filter=topsellers">
+                        <div class="seller_seemore_box">
+                            <p>Top Sellers</p>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+
+            <div class="update">
+                <p style="font-size: 14px;letter-spacing: 0.03em;font-weight: normal;">UPDATES AND OFFERS</p>
+                <a href="https://store.steampowered.com/app/1659420/UNCHARTED_Legacy_of_Thieves_Collection/">
+                    <img src="image/uncharted_update.jpg" class="update_biggame">
+                    <div id="game14" class="box" >
+                        <b style="font-size: 15px;">UNCHARTED™: Legacy of Thieves ...</b>
+                        <p style="font-size: 9px;">Released: 19 Oct, 2022</p>
+                        <div>
+                            <img class="box_slideshow14" src="image/unchar1.jpg">
+                            <img class="box_slideshow14" src="image/unchar2.jpg">
+                            <img class="box_slideshow14" src="image/unchar3.jpg">
+                            <img class="box_slideshow14" src="image/unchar4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Very Positive <span style="color: #b8b6b4;">(4,646 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Action</div>
+                        <div class="box_tag" style="left:57px">Action-Adventure</div>
+                        <div class="box_tag" style="left:152px">Story Rich</div>
+                        <div class="box_tag" style="left:214px">Action</div>
+                    </div> 
+                </a>
+                <div class="update_biggame_price">
+                    
+                </div>
+                <div class="update_biggame_discount">
+                    <p>-30%</p>
+                </div>
+                <div class="update_finalprice" id="big">
+                    <span class="strikethrough" style="font-size: 11px;">1.150.000vnđ</span>
+                    <p style="font-size: 15px;margin-top: -9px;">811.500vnđ</p>
+                </div>
+
+                <a href="https://store.steampowered.com/app/1527950/Wartales/">
+                    <img src="image/wartales_update.jpg" class="update_smallgame1">
+                    <div id="game15" class="box" >
+                        <b style="font-size: 15px;">Wartales</b>
+                        <p style="font-size: 9px;">Released: 1 Dec, 2021</p>
+                        <div>
+                            <img class="box_slideshow15" src="image/war1.jpg">
+                            <img class="box_slideshow15" src="image/war2.jpg">
+                            <img class="box_slideshow15" src="image/war3.jpg">
+                            <img class="box_slideshow15" src="image/war4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Very Positive <span style="color: #b8b6b4;">(7,714 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">RPG</div>
+                        <div class="box_tag" style="left:50px">Open World</div>
+                        <div class="box_tag" style="left:121px">Turn-Based Strategy</div>
+                        <div class="box_tag" style="left:234px">Medieval</div>
+                    </div> 
+                </a>
+
+                <a href="https://store.steampowered.com/app/1237320/Sonic_Frontiers/">
+                    <img src="image/sonic_update.jpg" class="update_smallgame2">
+                    <div id="game16" class="box" >
+                        <b style="font-size: 15px;">Sonic Frontiers</b>
+                        <p style="font-size: 9px;">Released: 8 Nov, 2022</p>
+                        <div>
+                            <img class="box_slideshow16" src="image/sonic1.jpg">
+                            <img class="box_slideshow16" src="image/sonic2.jpg">
+                            <img class="box_slideshow16" src="image/sonic3.jpg">
+                            <img class="box_slideshow16" src="image/sonic4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Overwhelmingly Positive <span style="color: #b8b6b4;">(117,169 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Adventure</div>
+                        <div class="box_tag" style="left:77px">Open World</div>
+                        <div class="box_tag" style="left:148px">Great Soundtrack</div>
+                        <div class="box_tag" style="left:246px">Action</div>
+                    </div>
+                </a>
+
+                <a href="https://store.steampowered.com/app/1203220/NARAKA_BLADEPOINT/">
+                    <img src="image/naraka_update.jpg" class="update_smallgame3">
+                    <div id="game17" class="box" >
+                        <b style="font-size: 15px;">NARAKA: BLADEPOINT</b>
+                        <p style="font-size: 9px;">Released: 12 Aug, 2021</p>
+                        <div>
+                            <img class="box_slideshow17" src="image/naraka1.jpg">
+                            <img class="box_slideshow17" src="image/naraka2.jpg">
+                            <img class="box_slideshow17" src="image/naraka3.jpg">
+                            <img class="box_slideshow17" src="image/naraka4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Mostly Positive <span style="color: #b8b6b4;">(117,169 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Battle Royale</div>
+                        <div class="box_tag" style="left:92px">Multiplayer</div>
+                        <div class="box_tag" style="left:157px">Martial Arts</div>
+                        <div class="box_tag" style="left:223px">PvP</div>
+                    </div>
+                </a>
+
+                <a href="https://store.steampowered.com/app/2221920/Immortals_Fenyx_Rising/">
+                    <img src="image/immortal_update.jpg" class="update_smallgame4">
+                    <div id="game18" class="box" >
+                        <b style="font-size: 15px;">Immortals Fenyx Rising</b>
+                        <p style="font-size: 9px;">Released: 16 Dec, 2022</p>
+                        <div>
+                            <img class="box_slideshow18" src="image/imooratl1.jpg">
+                            <img class="box_slideshow18" src="image/immortal2.jpg">
+                            <img class="box_slideshow18" src="image/immortal3.jpg">
+                            <img class="box_slideshow18" src="image/imooratl4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #b9a074; margin-top: -18px;">Mixed <span style="color: #b8b6b4;">(278 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Action</div>
+                        <div class="box_tag" style="left:58px">Adventure</div>
+                        <div class="box_tag" style="left:120px">RPG</div>
+                        <div class="box_tag" style="left:157px">Action-Adventure</div>
+                        <div class="box_tag" style="left:253px">3D</div>
+                    </div>
+                </a>
+
+                <a href="https://store.steampowered.com/app/1222140/Detroit_Become_Human/">
+                    <img src="image/detroit_ipdate.jpg" class="update_smallgame5">
+                    <div id="game19" class="box" >
+                        <b style="font-size: 15px;">Detroit: Become Human</b>
+                        <p style="font-size: 9px;">Released: 18 Jun, 2020</p>
+                        <div>
+                            <img class="box_slideshow19" src="image/detroit1.jpg">
+                            <img class="box_slideshow19" src="image/detroit2.jpg">
+                            <img class="box_slideshow19" src="image/detroit3.jpg">
+                            <img class="box_slideshow19" src="image/detroit4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #66c0f4; margin-top: -18px;">Very Positive <span style="color: #b8b6b4;">(59,521 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Choices Matter</div>
+                        <div class="box_tag" style="left:100px">Story Rich</div>
+                        <div class="box_tag" style="left:163px">Multiple Endings</div>
+                    </div>
+                </a>
+
+                <a href="https://store.steampowered.com/app/1041320/Lords_Mobile/">
+                    <img src="image/lordmobile_update.jpg" class="update_smallgame6">
+                    <div id="game20" class="box" >
+                        <b style="font-size: 15px;">Lords Mobile</b>
+                        <p style="font-size: 9px;">Released: 3 Jun, 2019</p>
+                        <div>
+                            <img class="box_slideshow20" src="image/lord1.jpg">
+                            <img class="box_slideshow20" src="image/lord2.jpg">
+                            <img class="box_slideshow20" src="image/lord3.jpg">
+                            <img class="box_slideshow20" src="image/lord4.jpg">
+                        </div>
+                        <div class="box_userreview">
+                            <p>Overall user reviews:</p>
+                            <p style="color: #b9a074; margin-top: -18px;">Mixed <span style="color: #b8b6b4;">(4,640 reviews)</span></p>
+                        </div>
+                        <p style="margin-top: 225px;font-size: 12px;">User tags:</p>
+                        <div class="box_tag">Free to Play</div>
+                        <div class="box_tag" style="left:87px">Massively Multiplayer</div>
+                        <div class="box_tag" style="left:203px">Strategy</div>
+                        <div class="box_tag" style="left:256px">War</div>
+                    </div>
+                </a>
+                <div class="update_smallgame_price1">
+
+                </div>
+                <div class="update_smallgame_price2">
+                    
+                </div>
+                <div class="update_smallgame_price3">
+                    
+                </div>
+                <div class="update_smallgame_price4">
+                    
+                </div>
+                <div class="update_smallgame_price5">
+                    
+                </div>
+                <div class="update_smallgame_price6">
+                    <p style="margin-top: 12px;margin-left: 87px;">Free to Play</p>
+                </div>
+                <div class="update_smallgame_discount" id="smalldiscount1">
+                    <p>-25%</p>
+                </div>
+                <div class="update_finalprice" id="small1">
+                    <span class="strikethrough" style="font-size: 11px;">608.000vnđ</span>
+                    <p style="font-size: 15px;margin-top: -9px;">456.500vnđ</p>
+                </div>
+                <div class="update_smallgame_discount" id="smalldiscount2">
+                    <p>-30%</p>
+                </div>
+                <div class="update_finalprice" id="small2">
+                    <span class="strikethrough" style="font-size: 11px;">830.000vnđ</span>
+                    <p style="font-size: 15px;margin-top: -9px;">587.500vnđ</p>
+                </div>
+                <div class="update_smallgame_discount" id="smalldiscount3">
+                    <p>-50%</p>
+                </div>
+                <div class="update_finalprice" id="small3">
+                    <span class="strikethrough" style="font-size: 11px;">360.000vnđ</span>
+                    <p style="font-size: 15px;margin-top: -9px;">180.000vnđ</p>
+                </div>
+                <div class="update_smallgame_discount" id="smalldiscount4">
+                    <p>-75%</p>
+                </div>
+                <div class="update_finalprice" id="small4">
+                    <span class="strikethrough" style="font-size: 11px;">990.000vnđ</span>
+                    <p style="font-size: 15px;margin-top: -9px;">247.500vnđ</p>
+                </div>
+                <div class="update_smallgame_discount" id="smalldiscount5">
+                    <p>-50%</p>
+                </div>
+                <div class="update_finalprice" id="small5">
+                    <span class="strikethrough" style="font-size: 11px;">585.000vnđ</span>
+                    <p style="font-size: 15px;margin-top: -9px;">292.500vnđ</p>
+                </div>
+                
+                
+            </div>
+            
+            
+
+        </div>  
+    </div>
+
+    <div class="nearly_bot">
+        <p class="nearly_bot_text1">Looking for recommendations?</p>
+        <p class="nearly_bot_text2">Sign in to view personalized recommendations</p>
+        <div class="but_sign_in2">
+            <a href="login.html"><p>Sign in</p></a>
+        </div>
+        <p class="nearly_bot_text3">Or <span class="signup_text"><a href="https://store.steampowered.com/join/?snr=1_4_4__more-content-login">sign up</a></span> and join Steam for free</p>
+    </div>
+
+    <div class="bot">
+        <div class="bot_rule">
+            <img class="bot_rule_valve" src="image/valve.png">
+            <p class="bot_rule_text1">© 2022 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</p>
+            <pre class="bot_rule_text2">VAT included in all prices where applicable. <span class="span_rule"><a href="https://store.steampowered.com/privacy_agreement/?snr=1_4_4__global-responsive-menu">Privacy Policy</a></span>   |   <span class="span_rule"><a href="http://www.valvesoftware.com/legal.htm">Legal</span></a>  |   <span class="span_rule"><a href="https://store.steampowered.com/subscriber_agreement/?snr=1_subscriberagreement_PrivacyAgreement__global-responsive-menu">Subscriber Agreement</span></a>   |   <span class="span_rule"><a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_44_44_">Refunds</a></span>   |   <span class="span_rule"><a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_44_44_">Cookies</a></span></pre>            </p>
+            <img class="bot_rule_steam" src="image/bot_steam.png">
+        </div>
+
+        <div class="bot_valve_link">
+            <pre class="bot_valve_link_text"><span class="span_about"><a href="https://www.valvesoftware.com/en/about">About Valve</a></span>   |  <span class="span_about"><a href="https://www.valvesoftware.com/en/">Jobs</a></span>   |  <span class="span_about"><a href="https://partner.steamgames.com/">Steamworks</a></span>   |  <span class="span_about"><a href="https://partner.steamgames.com/steamdirect">Steam Distribution</a></span>   |  <span class="span_about"><a href="https://help.steampowered.com/en/?snr=1_44_44_">Support</a></span>   |  <span class="span_about"><a href="https://store.steampowered.com/digitalgiftcards/">Gift Cards</a></span>   |   <span class="span_about"><a href="https://www.facebook.com/Steam">Steam @fb</a></span>   |   <span class="span_about"><a href="https://twitter.com/steam">@steam</a></span></pre>
+        </div>
+    </div>
+
+    <div class="footer">
+
+    </div>     
+    
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

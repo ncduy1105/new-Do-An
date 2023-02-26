@@ -1,0 +1,481 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Steam</title>
+</head>
+
+<style>
+    .steamdau
+    {
+        position: relative;
+        width: 1520px;
+        height: 80px;
+        background-color:#1c1c21;
+        background-size: 1520px 80px;
+        margin-left:-8px;
+        font-family:"Motiva Sans", Sans-serif;
+        margin-top: -30px;
+    }
+    #menu2
+    {
+        position: absolute;
+        width: 500px;
+        top: 30px;
+        left: 400px;
+        line-height: 16px;
+        float: left;
+        font-size: 10px;
+        color: #b8b6b4;
+        cursor: pointer;
+    }
+    #menu2 ul
+    {
+    margin-top:20px	;
+    }
+    #menu2 ul li
+    {
+    list-style-type: none; 
+    display: inline; 
+    margin-left: 0px; 
+    }
+    #menu2 li:hover
+    {
+        color: white;
+    }
+    .logo_steam
+    {
+        width: 200px;
+        height: 80px;
+        background-size: 200px 80px;
+        margin-left: 100px;
+        margin-top: 12px;
+      
+    }
+  .Bg_SignIn
+  {
+        position: relative;
+		width: 1520px;
+		height: 500px;
+        background-image: url("bgsteam.jpg");
+        background-size: 1520px 600px;
+        opacity: 92%;
+        margin-left:-8px;
+  }
+  .signin
+  {
+    position: absolute;
+    color: aliceblue;
+    font-family:"Motiva Sans", Sans-serif;
+    font-size: 35px;
+    top: 35px;
+    left: 450px;
+  }
+  .account
+  {
+        position: absolute;
+        width:600px;
+		height:250px;
+        background-color:#09090e;
+        background-size: 450px 250px;
+		top:120px;
+        left: 450px;
+        border-radius: 4px;
+        font-size: 9px;
+        font-family:"Motiva Sans", Sans-serif;
+  }
+  .acc
+  {
+    width: 130px;
+    font-size: 9px;
+    font-family: "Motiva Sans", Sans-serif;
+    margin-left: 20px;
+    margin-top: 33px;
+    color: #06BFFF;
+  }
+  .pass
+  {
+    width: 60px;
+    font-size: 9px;
+    font-family: "Motiva Sans", Sans-serif;
+    margin-left: 20px;
+    margin-top: 55px;
+    color: #fff;
+  }
+  .text_acc
+  {
+        position: absolute;
+        border: none;
+        background-color:#32353c;
+        color:#fff;
+        width: 300px;
+        height: 25px;
+        top: 45px;
+        left: 20px;
+  }
+  .text_acc:hover
+  {
+    opacity: 0.7;
+  }
+  .text_acc:focus
+    {
+        outline: #32353c;
+    }
+
+.text_pass
+{
+    position: absolute;
+    border: none;
+    border-color: #32353c;
+    color:#fff;
+    background-color: #32353c;
+    width: 300px;
+    height: 25px;
+    top: 110px;
+    left: 20px;
+}
+
+       
+.text_pass:hover
+    {
+        opacity: 0.7;
+    }
+    .text_pass:focus
+    {
+        outline: #32353c;
+    }
+
+  .but
+    {   
+        position: absolute;
+        background:  linear-gradient(90deg, #06BFFF 0%, #2D73FF 100%);
+        border: none;
+        width: 175px;
+        height: 35px;
+        top: 170px;
+        left: 70px;
+        color: aliceblue;
+        border-radius: 1.5px;
+
+    }
+    .but:hover
+    {
+        opacity: 0.8;
+    }
+    .help
+    {
+        position: absolute;
+        color:#fff;
+        top: 220px;
+        left: 120px;
+    }
+    a
+    {
+        text-decoration: none !important;
+        color: inherit !important;
+    }
+    .help:hover
+  {
+    opacity: 0.7;
+  }
+    .QR
+    {
+        position: absolute;
+        background-image: url("QR.PNG");
+        width: 170px;
+        height: 170px;
+        background-size: 170px 170px;
+        border-radius: 5px;
+        left: 400px;
+        top: 35px;
+    }
+    .or
+    {
+        width: 120px;
+        position: absolute;
+        font-size: 10px;
+        color: #1999ff;
+        left: 400px;
+        top: 8px;
+    }
+    .use
+    {
+        width: 130px;
+        font-size: 9px;
+        position: absolute;
+        left: 420px;
+        top: 200px;
+        font-family: "Motiva Sans", Sans-serif;
+        color: #b8b6b4;
+    }
+    .mobile
+    {
+        width: 120px;
+        position: absolute;
+        font-family: "Motiva Sans", Sans-serif;
+        color:#fff;
+        margin-top:92px;
+        left: 455px;
+    }
+    .mobile:hover
+    {
+        opacity: 0.8;
+    }
+    .steamduoi
+    {
+        position: absolute;
+        width: 1528px;
+        height: 450px;
+        background-color:#1c1c21;
+        background-size: 1528px 450px;
+        left:-8px;
+    }
+    .cuoi
+    {
+        margin: auto;
+        font-family: "Motiva Sans", Sans-serif;
+        color: #fff;
+        margin-top: 100px;
+        margin-left: 200px;
+    }
+    
+    .join
+    {
+        width: 150px;
+        font-size: 12px;
+        font-family: "Motiva Sans", Sans-serif;
+        color: #b8b6b4;
+    }
+    .lear
+    {
+        width: 80px;
+        font-size: 13px;
+        font-family: "Motiva Sans", Sans-serif;
+        color: #FFFFFF;
+        margin-left: 510px;
+        margin-top: 20px;
+      
+    }
+    .lear:hover
+    {
+        opacity: 0.7;
+    }
+    .pc
+    {
+        width: 230px;
+        height: 150px;
+        background-image: url("join_pc.png");
+        background-size: 230px 150px;
+        margin-left: 680px;
+        margin-top: -120px;
+        
+    }
+    .but_join
+    {   
+        width: 80px;
+        height: 30px;
+        border-radius: 2px;
+        border-color:#c5d4df; 
+        color: #fff ;
+        background: transparent;
+        margin-left: 975px;
+        margin-top: -110px;
+    }
+    
+    .but_join:hover
+    {
+        opacity: 0.7;
+    }
+    .free
+    {
+        width: 140px;
+        font-size: 12px;
+        font-family: "Motiva Sans", Sans-serif;
+        color: #b8b6b4; 
+        margin-left:950px;
+        margin-top: -75px;
+    }
+    .steamduoi
+    {
+        position: absolute;
+        width: 1528px;
+        height: 450px;
+        background-color:#1c1c21;
+        background-size: 1528px 450px;
+        left:-8px;
+    }
+    .cuoi
+    {
+        margin: auto;
+        font-family: "Motiva Sans", Sans-serif;
+        color: #fff;
+        margin-top: 300px;
+
+    }
+    .bot_rule
+    {
+        position: absolute;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 130px;
+        width: 940px;
+        height: 60px;
+        border-top: 1px solid #fff
+    }
+    .bot_rule_valve
+    {
+        position: absolute;
+        width: 88px;
+        height: 25px;
+        top:10px;
+    }
+    .bot_rule_text1
+    {
+        position: absolute;
+        color: #8f98a0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        top: 8px;
+        left:100px;
+    }
+    .bot_rule_text2
+    {
+        position: absolute;
+        color: #8f98a0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        top:23px;
+        left:100px;
+    }
+    .bot_rule_steam
+    {
+        position: absolute;
+        right: 0;
+        width: 92px;
+        height: 26px;
+        top:10px;
+    }
+    .bot_valve_link
+    {
+        position: absolute;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 130px;
+        width: 940px;
+        height: 60px;
+        border-top: 1px solid #fff
+    }
+    .bot_valve_link_text
+    {
+        margin-top: 8px;
+        float: left;
+        font-family: "Motiva Sans", Sans-serif;
+        font-weight: normal;
+        font-size: 13px;
+        color: #c5d4df;
+    }
+    .footer
+    {
+        width: 1920px;
+        height: 40px;
+        background-color: #3D4450;
+    }
+    .span_rule
+    {
+        color: #c6d4df;
+    }
+    .span_rule:hover
+    {
+        color: white;
+    }
+    .span_about:hover
+    {
+        color: white;
+    }
+    .logo_out
+    {
+        width: 50px;
+        height: 25px;
+        background-size: 50px 25px;
+        margin-top: -30px;
+        margin-left: 900px;
+    }
+    .logo_out:hover
+    {
+        transform: scale(1.1);
+    }
+    
+    
+</style>
+
+<body>
+    <div>
+        <div class="steamdau">
+            <a href="index.html"><img class="logo_steam" src="logo_steam.svg"></a>
+            <div  id="menu2">
+                <ul>
+                    <li><b><a href="https://store.steampowered.com/">HOME</a></b></li>
+                    <li style="margin-left: 30px;">STORE</li>
+                    <li style="margin-left: 10px;">COMMUNITY</li>
+                    <li style="margin-left: 10px;">ABOUT</li>
+                    <li style="margin-left: 10px;">SUPPORT</li>
+                </ul>
+            </div>
+
+        </div>
+
+
+        <div class="Bg_SignIn">
+        <p class="signin">SIGN IN</p>
+                <div class="account">
+                    <p class="acc">SIGN IN WITH ACOUNT NAME </p>
+                    <input class="text_acc" />
+                    <p class="pass">PASSWROD</p>
+                    <input class="text_pass"/>  
+                    
+                    <input class="but" type="button" value="Sign In"><p  class="help">
+                        <a href="https://help.steampowered.com/fr/wizard/HelpWithLogin?redir=https%3A%2F%2Fstore.steampowered.com%2Flogin%2F%3Fredir%3D%26redir_ssl%3D1%26snr%3D1_4_4__global-header">
+                            <u>Help, I can't sign in</u></a></p>
+
+                    <p class="or"><b>OR SIGN IN WITH QR</b></p>
+
+                    <div class="QR"></div>
+
+                    <div> <p class="use">Use the</p>
+                        <p class="use" style="margin-top:8px;margin-left: 113px;">to sign in</p>
+                        <p class="use" style="margin-top: 20px;margin-left: 38px;">in via QR code</p>
+                    </div>
+                    <div><p class="mobile"><a href="https://store.steampowered.com/mobile"><u>Steam Mobile App</a></u></p></div>
+                </div>
+        </div>
+            <div class="steamduoi">
+                <p class="join" style="margin-left: 480px;margin-top: 60px;">Join Steam and discover</p>
+                <p class="join" style=" margin-left: 480px; margin-top: -10px;">thousands of games to play.</p>
+                <p class="lear"><a href="https://store.steampowered.com/about">Learn More</a> </p>
+                <img class="pc">
+                <a href="https://store.steampowered.com/join/?&snr=1_60_4__62"> <input class="but_join" type="button" value="Join Steam"></a>
+                <p class="free">It's free and easy to use.</p>
+
+
+                    <div class="bot_rule">
+                        <img class="bot_rule_valve" src="hinh/footerLogo_valve_new.png">
+                        <p class="bot_rule_text1">© 2022 Valve Corporation. All rights reserved. All trademarks are property of their respective owners in the US and other countries.</p>
+                        <pre class="bot_rule_text2">VAT included in all prices where applicable. <span class="span_rule"><a href="https://store.steampowered.com/privacy_agreement/?snr=1_4_4__global-responsive-menu">Privacy Policy</a></span>   |   <span class="span_rule"><a href="http://www.valvesoftware.com/legal.htm">Legal</span></a>  |   <span class="span_rule"><a href="https://store.steampowered.com/subscriber_agreement/?snr=1_subscriberagreement_PrivacyAgreement__global-responsive-menu">Subscriber Agreement</span></a>   |   <span class="span_rule"><a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_44_44_">Refunds</a></span>   |   <span class="span_rule"><a href="https://store.steampowered.com/account/cookiepreferences/?snr=1_44_44_">Cookies</a></span></pre>            </p>
+                        <img class="bot_rule_steam" src="hinh/logo_steam_footer.png">
+                    </div>
+            
+                    <div class="bot_valve_link">
+                        <pre class="bot_valve_link_text"><span class="span_about"><a href="https://www.valvesoftware.com/en/about">About Valve</a></span>   |  <span class="span_about"><a href="https://www.valvesoftware.com/en/">Jobs</a></span>   |  <span class="span_about"><a href="https://partner.steamgames.com/">Steamworks</a></span>   |  <span class="span_about"><a href="https://partner.steamgames.com/steamdirect">Steam Distribution</a></span>   |  <span class="span_about"><a href="https://help.steampowered.com/en/?snr=1_44_44_">Support</a></span>   |  <span class="span_about"><a href="https://store.steampowered.com/digitalgiftcards/">Gift Cards</a></span>   |   <span class="span_about"><a href="https://www.facebook.com/Steam">Steam @fb</a></span>   |   <span class="span_about"><a href="https://twitter.com/steam">@steam</a></span></pre>
+                    </div>
+                
+            </div>
+            
+    </div>
+</body>
+</html>
